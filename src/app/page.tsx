@@ -4,6 +4,7 @@ import DeliveryAnimate from "@/components/DeliveryAnimate";
 import FallingHeart from "@/components/FallingHeart";
 import FlowerScene from "@/components/FlowerScene";
 import GiftBox from "@/components/GiftBox";
+import Message from "@/components/Message";
 import MusicPlayer from "@/components/MusicPlayer";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
@@ -93,6 +94,7 @@ export default function Page() {
             transition={{ duration: 2 }}
             className="relative h-screen w-full bg-black"
           >
+            <Message />
             <FallingHeart />
             <MusicPlayer />
             <FlowerScene />

@@ -16,7 +16,7 @@ export default function FlowerScene() {
 
   return (
     <div
-      className={`flower-body not-loaded w-full h-screen bg-black relative overflow-hidden`}
+      className={`flower-body not-loaded w-full h-full bg-black relative overflow-hidden`}
     >
       <div className="night"></div>
       <div className="flowers">
